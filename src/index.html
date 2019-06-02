@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product Landing</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <div class="main-wrapper">
+    <nav id="navbar">
+      <header>
+        HTML Dcomention
+      </header>
+      <ul class="navbar-list">
+        <li class="nav-item">
+          <a class="nav-link" href="#Introduction">Introduction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Editors">Editors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Basic">Basic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Elements">Elements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Attributes">Attributes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Styles">Styles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Colors">Colors</a>
+        </li>
+        
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>
+          <h1>Introduction</h1>
+        </header>
+        <article>
+          <p>HTML is the standard markup language for creating Web pages.</p>
+          <ul>
+            <li>HTML stands for Hyper Text Markup Language</li>
+            <li>HTML describes the structure of Web pages using markup</li>
+            <li>HTML elements are the building blocks of HTML pages</li>
+            <li>HTML elements are represented by tags</li>
+            <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="Editors">
+        <header>
+          <h1>Editors</h1>
+        </header>
+        <article>
+          <h2>Write HTML Using Notepad or TextEdit.</h2>
+          <p>Web pages can be created and modified by using professional HTML editors. However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac). We believe using a simple text editor is a good way to learn HTML. Follow the four steps below to create your first web page with Notepad or TextEdit.</p>
+          <p>Write or copy some HTML into Notepad.</p>
+          <pre>
+<code>
+  &lt;!DOCTYPE html>
+  &lt;html>
+  
+  &lt;body>
+  
+    &lt;h1>My First Heading&lt;/h1>
+  
+    &lt;p>My first paragraph.&lt;/p>
+  
+  &lt;/body>
+  
+  &lt;/html>
+</code>
+          </pre>
+        </article>
+      </section>
+      <section class="main-section" id="Basic">
+        <header>
+          <h1>Basic</h1>
+        </header>
+        <article>
+          <p>Don't worry if these examples use tags you have not learned.</p>
+          <p>You will learn about them in the next chapters.</p>
+
+          <p>All HTML documents must start with a document type declaration: <code>&lt;!DOCTYPE html></code>.</p>
+          <p>The HTML document itself begins with &lt;html> and ends with &lt;/html>.</p>
+          <p>The visible part of the HTML document is between &lt;body> and &lt;/body>.</p>
+
+          <span>Example</span>
+          <pre>
+<code>
+  &lt;!DOCTYPE html>
+  &lt;html>
+  
+  &lt;body>
+  
+    &lt;h1>My First Heading&lt;/h1>
+    &lt;p>My first paragraph.&lt;/p>
+  
+  &lt;/body>
+  
+  &lt;/html>
+</code>            
+          </pre>
+          
+        </article>
+      </section>
+      <section class="main-section" id="Elements">
+        <header>
+          <h1>Elements</h1>
+        </header>
+        <article>
+          <p>An HTML element usually consists of a start tag and end tag, with the content inserted in between:</p>
+          <p><code>&lt;tagname>Content goes here...&lt;/tagname></code></p>
+          <p>The HTML element is everything from the start tag to the end tag:</p>
+          <p><code>&lt;p>My first paragraph.&lt;/p></code></p>          
+        </article>
+      </section>
+
+      <section class="main-section" id="Attributes">
+        <header>
+          <h1>Attributes</h1>
+        </header>
+        <article>
+          <p>Attributes provide additional information about HTML elements.</p>          
+          <ul>
+            <li>All HTML elements can have attributes</li>
+            <li>Attributes provide additional information about an element</li>
+            <li>Attributes are always specified in the start tag</li>
+            <li>Attributes usually come in name/value pairs like: name="value"</li>            
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Styles">
+        <header>
+          <h1>Styles</h1>
+        </header>
+        <article>
+          <p>Attributes provide additional information about HTML elements.</p>
+          <h2>HTML Attributes</h2>
+          <ul>
+            <li>All HTML elements can have attributes</li>
+            <li>Attributes provide additional information about an element</li>
+            <li>Attributes are always specified in the start tag</li>
+            <li>Attributes usually come in name/value pairs like: name="value"</li>            
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="Colors">
+        <header>
+          <h1>Colors</h1>
+        </header>
+        <article>
+          <p>HTML colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values. </p>
+          <h2>Background Color</h2>
+          <p>You can set the background color for HTML elements:</p>
+          <span>Example</span>
+          <pre>
+<code>
+  &lt;h1 style="background-color:DodgerBlue;">Hello World&lt;/h1>
+  &lt;p style="background-color:Tomato;">Lorem ipsum...&lt;/p>
+</code>            
+          </pre>
+        </article>
+      </section>
+    </main>
+  </div>
+  
+</body>
+</html>

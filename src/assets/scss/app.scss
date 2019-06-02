@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+  --white-color: #fff;
+  --gray-color: #edeeed;
+  --primary-color: #31d19e;
+  --border-color: #e5e5e5;
+  --dark-color: #222;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #848484
+}
+
+.bg-light {
+  background-color: var(--gray-color);
+}
+
+h1, h2, h2, h3, h4, h5, h6 {
+  color: var(--dark-color);
+}
+
+/* Main Wrapper */
+.main-wrapper {
+  position: relative;
+}
+
+
+/* Navbar */
+#navbar {
+  padding: 25px;
+  background-color: var(--gray-color);  
+  @media (min-width: 992px) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    
+  }
+
+  header {    
+    padding-bottom: 30px;
+    color: var(--dark-color);
+    font-size: 2em;
+    font-weight: 700;
+    @media (min-width: 992px) {
+      padding-top: 22px;
+    }
+  }
+}
+
+.navbar-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 150px;
+  overflow-y: scroll;
+  @media (min-width: 992px) {
+    height: auto;
+    overflow: unset;
+  }
+  .nav-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .nav-link {
+      text-decoration: none;
+      color: var(--dark-color);
+    }
+  }
+}
+
+#main-doc {
+  padding: 25px;
+  @media (min-width: 992px) {
+    padding-left: 335px;
+  }
+}
+
+.main-section {
+  margin-bottom: 50px;
+  ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
